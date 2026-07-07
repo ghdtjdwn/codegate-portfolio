@@ -54,7 +54,7 @@ const projectDetails = {
       "k3s 클러스터, ArgoCD Image Updater, Helm chart, GitHub Actions, DuckDNS/TLS, Prometheus/Grafana 관측성을 연결했습니다.",
     ],
     strength:
-      "해커톤에서 중요한 점은 AI를 붙이는 것보다 AI가 실제 문제를 끝까지 해결하게 만드는 것입니다. 이 프로젝트는 도구 설계, 인증, 보안, 운영, UI까지 모두 직접 다뤘기 때문에 AI 스타트업 MVP를 빠르게 수직 완성할 수 있다는 증거가 됩니다.",
+      "AI를 단순 채팅 UI로 끝내지 않고 실제 학교 데이터와 업무 흐름에 연결했습니다. 도구 설계, 인증, 보안, 운영, UI를 함께 다뤘기 때문에 사용자가 매일 쓰는 캠퍼스 서비스로 확장할 수 있는 구조를 갖췄습니다.",
     links: [
       { label: "Live ssuAI", href: "https://ssuai.vercel.app" },
       { label: "ssuMCP", href: "https://github.com/ghdtjdwn/ssuMCP" },
@@ -67,7 +67,7 @@ const projectDetails = {
     title: "그늘 - 여름 생존 지도",
     image: "./assets/geuneul-prototype.png",
     alt: "그늘 모바일 지도 프로토타입 화면",
-    tags: ["Location MVP", "PostGIS", "Live"],
+    tags: ["Location Product", "PostGIS", "Live"],
     lead:
       "폭염·장마 상황에서 사용자가 지금 당장 갈 수 있는 그늘, 냉방, 공중화장실, 콘센트, 비 피할 장소를 현재 위치 기준으로 찾는 모바일 PWA입니다. 공공데이터와 사용자 제보를 합쳐 생활 문제를 지도 위에서 바로 해결합니다.",
     cards: [
@@ -94,7 +94,7 @@ const projectDetails = {
       "내 위치 주변 장소를 거리순으로 조회하고, 지도 이동 시 bounds 안의 장소만 다시 가져옵니다.",
       "장소 카테고리, 주소, 좌표, 제보 신호를 결합해 사용자가 실제로 갈 곳을 빠르게 판단하게 합니다.",
       "사용자 제보 API를 통해 현장성이 강한 정보를 추가하고, BFF 프록시로 클라이언트 IP/비밀값 처리를 분리했습니다.",
-      "모바일 우선 PWA 구조로, 해커톤 데모에서 설치형 앱처럼 보여줄 수 있습니다.",
+      "모바일 우선 PWA 구조로, 사용자가 브라우저에서도 앱처럼 접근할 수 있게 구성했습니다.",
     ],
     tech: [
       "PostGIS 반경 검색, kNN, bounds 조회, Flyway migration, sample seed 데이터를 구성했습니다.",
@@ -103,7 +103,7 @@ const projectDetails = {
       "AWS ECS/RDS, Terraform, GitHub OIDC 기반으로 개인 프로젝트 수준을 넘어 운영 가능한 구조를 만들었습니다.",
     ],
     strength:
-      "단순 지도 앱이 아니라 데이터 수집, 위치 검색, 사용자 제보, 모바일 UX, 클라우드 배포를 한 번에 보여주는 생활형 MVP입니다. 짧은 해커톤에서도 문제-데이터-서비스를 빠르게 연결할 수 있다는 강한 근거가 됩니다.",
+      "단순 지도 화면이 아니라 데이터 수집, 위치 검색, 사용자 제보, 모바일 UX, 클라우드 배포를 한 번에 연결한 생활형 위치 서비스입니다. 실제 사용 상황과 운영 구조를 함께 고려한 점이 강점입니다.",
     links: [
       { label: "Live App", href: "https://geuneul.vercel.app" },
       { label: "GitHub", href: "https://github.com/ghdtjdwn/geuneul" },
@@ -149,7 +149,7 @@ const projectDetails = {
       "기획, UI, 게임 루프, AI 채점, 테스트 범위를 하나의 데모로 완성했습니다.",
     ],
     strength:
-      "AI를 무조건 많이 쓰는 대신, 제품 위험이 낮고 사용자 가치가 큰 지점에만 배치했습니다. 이 판단은 해커톤에서도 매우 중요합니다. 심사위원이 볼 때 AI의 역할과 제어 범위가 명확합니다.",
+      "AI를 무조건 많이 쓰는 대신, 제품 위험이 낮고 사용자 가치가 큰 지점에만 배치했습니다. 교육 콘텐츠의 안정성을 유지하면서도 자유서술 채점이라는 명확한 AI 사용성을 만든 점이 강점입니다.",
     links: [{ label: "Private repository", href: "" }],
   },
   chamdomi: {

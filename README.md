@@ -1,6 +1,6 @@
-# CODEGATE Portfolio
+# Portfolio
 
-홍성주 CODEGATE 2026 AI Startup Hackathon 지원용 정적 포트폴리오 사이트.
+홍성주 개인 포트폴리오 정적 사이트.
 
 ## Local Preview
 
